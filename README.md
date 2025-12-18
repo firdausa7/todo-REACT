@@ -60,53 +60,7 @@ yarn build
 To preview the production build:
 
 bash
-npm run preview
-# or
-yarn preview
-
-
-📁 Project Structure
-
-
-todo-list/
-├── src/
-│   ├── App.jsx          # Main application component
-│   ├── App.css          # Styles with dark/light mode
-│   ├── main.jsx         # Application entry point
-│   └── index.css        # Global styles
-├── public/              # Static assets
-├── index.html           # HTML template
-├── package.json         # Dependencies and scripts
-└── README.md           # This file
-
-
-🎨 Customization
-
-Changing the Background Photo
-
-Replace the Unsplash URL in src/App.css:
-
-css
-body {
-  background-image: url('YOUR_NEW_UNSPLASH_URL');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-
-Color Theme
-
-Modify the CSS variables in src/App.css:
-
-css
-:root {
-  --primary: #3b82f6;      /* Change primary color */
-  --success: #10b981;      /* Change success color */
-  --danger: #ef4444;       /* Change danger color */
-  /* ... other variables */
-}
-
+npm run previe
 
 Adding New Features
 
@@ -139,18 +93,6 @@ The header shows real-time statistics:
 · Completed: Finished tasks
 
 🔧 Troubleshooting
-
-Background Photo Not Showing
-
-1. Check that the Unsplash URL in App.css is correct
-2. Ensure you're using the direct image URL (not the page URL)
-3. Try a different Unsplash photo URL
-
-Theme Not Persisting
-
-1. Check browser console for localStorage errors
-2. Ensure cookies are enabled in your browser
-3. Try clearing browser cache and reloading
 
 Todos Not Saving
 
